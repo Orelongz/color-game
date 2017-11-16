@@ -1,0 +1,72 @@
+body {
+	background-color: #232323;
+	font-family: "Montserrat", "Avenir";
+	margin: 0;
+}
+
+.navback {
+	text-align: center;
+	background: rgb(107, 107, 240);
+	text-transform: uppercase;
+}
+
+h1{
+	color: white;
+	width: 40%;
+	margin: 0 auto;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px 0;
+}
+
+#colorCode {
+	font-size: 2em;
+}
+
+.nav1header {
+	text-align: center;
+	background: rgb(250, 250, 250);
+}
+
+.nav1 {
+	color: rgb(107, 107, 240);
+	padding: 10px;
+	text-transform: uppercase;
+	font-family: "Montserrat", "Avenir";
+	border: none;
+	background: none;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: inherit;	
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	outline: none;
+}
+
+
+.nav1:hover, .selected  {
+	background: rgb(107, 107, 240);
+	color: white;
+}
+
+#message {
+	display: inline-block;
+	width: 10%;
+}
+
+.holder {
+	width: 30%;
+	margin: 50px auto;
+}
+
+.square {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	padding-bottom: 30%;
+	border-radius: 20%;
+	transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s;
+}
